@@ -5,7 +5,9 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
+
       backgroundColor: Color(0xFFF6ECE6),
       body: SafeArea(
         child: Column(

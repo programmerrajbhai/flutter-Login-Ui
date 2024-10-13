@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:login_pageflutter/lgoindesign.dart';
 import 'loginpage.dart';
 import 'bangadesh.dart';
 import 'login.dart';
+import 'mypractice.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: Login(),
+      home: LoginDesign(),
 
     );
   }
